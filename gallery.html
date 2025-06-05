@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - MS Dhoni</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        /* Gallery Section */
+        .gallery {
+            padding: 80px 20px;
+            background: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery h1 {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        /* Image Grid Styles */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .image-item {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .image-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ffd700;
+        }
+
+        .caption {
+            padding: 10px;
+            font-size: 16px;
+            color: #333;
+            background: #fff;
+        }
+    </style>
+    <header class="navbar">
+        <div class="logo">MS DHONI</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="quotes.html">Quotes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <div class="container">
+            <h1>MS Dhoni - Gallery</h1>
+
+            <!-- Image Grid -->
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/15/02/dc/1502dc85f325e45f6f20e00203cb0b61.jpg" height="320"
+                        alt="MS Dhoni 2011">
+                    <p class="caption">MS Dhoni during the 2011 World Cup final</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/96/01/77/9601774a0db82013ed451bc3558e471a.jpg" height="320"
+                        alt="MS Dhoni 2013 Champions Trophy">
+                    <p class="caption">Dhoni with the 2013 Champions Trophy</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/79/5c/3a/795c3aa4a5bc59b03a1d4b34fb624abb.jpg" height="320" alt="MS Dhoni 2007">
+                    <p class="caption">MS Dhoni leading India to T20 World Cup victory in 2007</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/d5/ae/b9/d5aeb91c44f5dab5c1d14ed686a94504.jpg" height="320"
+                        alt="MS DHONI  leading India to Border–Gavaskar Trophy">
+                    <p class="caption">MS DHONI  leading India to Border–Gavaskar Trophy</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/26/65/4d/26654d63924bf076cd9e64943321c1d2.jpg" height="320"
+                        alt="MS Dhoni Captain Cool">
+                    <p class="caption">Captain Cool in action</p>
+                </div>
+                <div class="image-item">
+                   <img src="https://i.pinimg.com/736x/b7/2b/b3/b72bb370085ab20384bf8b3e906bf773.jpg" height="320" alt="MSD in IPL">
+                    <p class="caption">MS Dhoni during IPL with Chennai Super Kings</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

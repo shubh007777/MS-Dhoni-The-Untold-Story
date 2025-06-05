@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../images/dhoni-hero.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #ffd700;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffc107;
+}
+
+/* Hero Section (Image and Text) */
+/* Hero Section (Image and Text) */
+.hero {
+    position: relative;
+    /* Relative positioning ke saath content ko position karenge */
+    text-align: center;
+    /* Text ko center align karein */
+}
+
+.hero-image {
+    width: 100%;
+    /* Image ko full-width banayein */
+    height: auto;
+    
+}
+
+.hero-content {
+    position: absolute;
+    /* Text ko image ke upar position karein */
+    top: 50%;
+    /* Image ke middle mein text dikhane ke liye */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Centering ko perfect karne ke liye */
+    color: white;
+    /* Text ka color white rakhenge */
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    /* Heading ka size */
+    font-weight: 700;
+    /* Heading ko bold karein */
+    margin-bottom: 20px;
+    /* Heading ke neeche ka gap */
+}
+
+.hero-content p {
+    font-size: 20px;
+    /* Paragraph ka font size */
+    font-weight: 300;
+    /* Paragraph ka font weight light rakhenge */
+}
+
+
+/* Footer Style */
+.footer {
+    background-color: #333;
+    /* Footer ka background color */
+    color: white;
+    /* Text ka color white */
+    text-align: center;
+    /* Text ko center align karein */
+    padding: 20px;
+    /* Padding denge taaki footer thoda space le */
+    position: fixed;
+    /* Footer ko fixed rakhenge screen ke neeche */
+    bottom: 0;
+    /* Screen ke neeche lagayenge */
+    width: 100%;
+    /* Full-width footer */
+}
+
+.footer p {
+    font-size: 16px;
+    /* Font size ko thoda chhota rakhenge */
+    margin: 0;
+    /* Margin hataenge */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+
+
+  .hero-text {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 1.8rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  }
